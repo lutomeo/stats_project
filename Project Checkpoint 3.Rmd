@@ -1,0 +1,90 @@
+---
+title: "Project Checkpoint 3"
+output: pdf_document
+date: "2025-11-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+By this point in your project, you will have started your data analysis. So, let's do this in R rather than on paper. This will be an opportunity for you to start more in-depth work on the dataset and do some exploratory data analysis. Feel free to use this checkpoint as your workspace and try things out. At any point, feel free to add more code cells to the document and modify this to suit your needs. Overall, here are the things I'm looking for in this checkpoint:
+
+1.  Loading data into R and exploring it.
+2.  Produce one plot relevant to your project.
+3.  Perform one analysis relevant to your project.
+
+Although this will technically have met the requirements of the project, you will likely have to
+
+Before you begin, you may load the packages needed here:
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+```
+
+# Dataset
+
+By this stage, you should have your data in a clean format that is ready for analysis. First, let's load the dataset into R. If you need to join or merge datasets, this is a good place to do it. Recall that we have the `left_join` function, but you can also explore other options such as `full_join` or `anti_join`.
+
+```{r}
+## Your code here
+
+```
+
+Now, let's look at the dataset on a holistic level. First, use the `head` function to print out the first few rows of the dataset (if there aren't too many columns)
+
+```{r}
+## Your code here
+
+```
+
+Also, use the `summary` function to look at 5-number summary of the dataset:
+
+```{r}
+## Your code here
+
+```
+
+Please also upload the dataset you used in csv format to Moodle so that this document can be reproduced.
+
+# Plotting
+
+Produce one plot that is relevant to your project. Please title the plot and label the axes properly. Also, write a short description/interpretation of the plot. If you plan on using some fancy plotting techniques, it is okay to look around the internet and use resources like [this](https://r-graph-gallery.com/), but refrain from simply using AI tools.
+
+```{r}
+## Your code here
+
+```
+
+**Your interpretation here**:
+
+# Analysis
+
+Next, perform an analysis. This is a bit vague, but you think about some of the things we did in class. Examples include
+
+-   Inference for one mean, two mean, proportions, etc.
+
+-   Correlation
+
+-   Linear regression
+
+-   Contingency tables
+
+-   ANOVA (Potentially)
+
+Which one you use will depend on what your dataset is and your research questions. What you will need to do is to justify your choice of your analysis and properly follow the steps. In your report and presentation, you do not have to mechanically go through the exact steps (e.g. reciting the interpretation for a regression coefficient word for word), but what you will be expected to do is to be able to explain the results naturally and logically.
+
+You can think of this as a preliminary analysis. This does not mean that your project is set in stone. Rather, this is time for you to identify any help that you may need and start thinking more deeply about the dataset.
+
+```{r}
+## Your code here
+
+```
+
+**Your interpretation**:
+
+# Getting Ready for Your Project
+
+There is more to do for the project than the visualization and analysis in this checkpoint. You will likely need more visualizations, refine and modify your analyses, put together a convincing and cohesive narrative, and start preparing for the presentation. Notice that presentation starts on the week after thanksgiving, so don't wait the last minute. We will be finalizing presentation slots soon, and you will be given rubrics for both the presentation and the written report.
+
+If at any point you have questions, please feel free to ask me! I'm more than happy to help!
